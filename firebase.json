@@ -7,6 +7,12 @@
       "**/node_modules/**"
     ]
   },
+  
+  "rewrites": [{
+    "source": "**",
+    "function": "api"
+}],
+
   "functions": [
     {
       "source": "functions",
