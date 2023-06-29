@@ -1,4 +1,4 @@
-import { db } from './dbConnect.js';
+import { db } from "./dbConnect.js"
 import { ObjectId } from 'mongodb';
 
 export async function getAllImages(req, res) {
